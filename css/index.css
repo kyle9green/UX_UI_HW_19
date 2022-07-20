@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+  }
+  .inline-block{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .navigation {
+    background-color: black;
+    padding-top: 10px;
+  }
+  .logo{
+    width: 20%;
+    padding: 0px 0px 0px 200px;
+    text-align: left;
+  }
+  nav{
+    width: 63%;
+    margin-left: auto;
+  }
+  header ul {
+    float: right;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+  }
+  .link{
+    text-decoration: none;
+  }
+  .heroImg {
+    background-color: #000000;
+    height: 600px;
+    padding-top: 200px;
+    padding-left: 200px;
+  }
+  .profilepic{
+    width: 380px;
+    float: right;
+    padding-right: 200px;
+    border: #000000;
+  }
+  .content1 {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+
+  }
+  button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  footer {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+  }
+  .linkedinlogo{
+    padding-left: 50px;
+  }
+  .maillogo{
+    padding-right: 50px;
+  }
+  .footerlogo{
+    width: 30px;
+  }
+  footer p{
+    width: auto;
+    display: inline-block;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .content1 p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+  }
+  .content1 h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
+  .SmallGreenLine{
+    padding: 20px 20px 20px 0px
+  }
+.skillsicons{
+  width: 50px;
+}
+
+.flexContainer{
+  display: flex;
+  flex-direction: row;
+}
+.flexContainer div{
+  width: 33%;
+}
+.workGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.item1{
+  grid-column-start: 2;
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin-bottom: 20px;
+  height: 200px;
+  
+}
+.item1 img{
+  width: 100%;
+  max-width: 250px;
+  min-width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+.item2{
+  grid-column-start: 3;
+  padding: 50px;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+.item3{
+  grid-column-start: 2;
+  text-align: center;
+  padding: 50px;
+  background-color: black;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+.item3 img{
+    height: 100%;
+    max-width: 180px;
+    min-width: 100px;
+
+}
+.item4{
+  grid-column-start: 3;
+  padding: 50px;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+.greendot{
+  grid-column-start: 3;
+  padding: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .flexContainer{
+    flex-direction: column;
+  }
+  .flexContainer div{
+    width: 100%;
+  }
+  .workGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .item1{
+    grid-column-start: 1;
+    text-align: center;
+    background-color: black;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+ 
+  .item2{
+    grid-column-start: 2;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  .item3{
+    grid-column-start: 1;
+    text-align: center;
+    background-color: black;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  .item4{
+    grid-column-start: 2;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }  
+}
