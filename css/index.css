@@ -50,10 +50,9 @@ body {
     float: left;
 
   }
-  button {
+  .resumeButton {
     padding: 15px;
-    background-color: #373738;
-    color: white;
+    padding-left: 0;
     font-size: 15px;
     border-radius: 4px;
     position: absolute;

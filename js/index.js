@@ -1,7 +1,7 @@
-$("button").hover(
-    function() {
-      $( this ).append( $( "<span> ***</span>" ) );
-    }, function() {
-      $( this ).find( "span" ).last().remove();
-    }
-  );
+$(".resumeButton").mouseenter(function(){
+  $(this).attr('src', 'images/downloadresumebuttonHOVER.svg');
+});
+
+$(".resumeButton").mouseleave(function(){
+  $(this).attr('src', 'images/downloadresumebutton.svg');
+});
